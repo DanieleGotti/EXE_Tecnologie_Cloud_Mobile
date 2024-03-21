@@ -31,10 +31,17 @@ Resources:
     Type: 'AWS::S3::Bucket'
     DeletionPolicy: Retain
     Properties:
-      BucketName: "tedx-data"
+      BucketName: "tedxdatagotti"
   
   ScriptS3Bucket:
     Type: 'AWS::S3::Bucket'
     DeletionPolicy: Retain
     Properties:
-      BucketName: "tedx-script"
+      BucketName: "tedxscriptgotti"
+
+  LogsS3Bucket:
+    Type: 'AWS::S3::Bucket'
+    DeletionPolicy: Retain
+    Properties:
+      BucketName: "tedxlogsgotti"
+  
